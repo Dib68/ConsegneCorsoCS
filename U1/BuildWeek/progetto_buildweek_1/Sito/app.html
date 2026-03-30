@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NetSecure Preventivi | Reti e Cyber Security</title>
+  <meta name="description" content="Preventivi professionali per installazioni di rete, infrastrutture IT e soluzioni di cyber security per aziende." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="logo"><img src="digital_avengers_blue_text.png" class="img" ><span>Digital Avengers</span></div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="app.html">la nostra app</a></li>
+          <li><a href="Big-Brother-30.html"onclick="controllaPassword(event)">🔒Big Brother</a></li>
+          <li><a href="#vantaggi">Vantaggi</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <script>
+
+
+// 🔐 PASSWORD PER ENTRARE NELLA PAGINA
+ function controllaPassword(event) {
+      event.preventDefault();
+
+      const passwordCorretta = "bigbrother";
+      const passwordUtente = prompt("Inserisci la password:");
+
+if (passwordUtente === passwordCorretta) {
+        window.location.href = "Big-Brother-30.html";
+      } else if (passwordUtente !== null) {
+        alert("Password errata");
+      }
+}
+
+// ⬇️ PASSWORD DOWNLOAD
+function controllaDownload() {
+  const passwordDownload = "10.000";
+  const input = prompt("Inserisci l'importo:");
+
+  if (input === passwordDownload) {
+    window.location.href = "https://www.python.org/ftp/python/pymanager/python-manager-26.0.msix";
+  } else {
+    alert("Password errata");
+  }
+}
+
+</script>
+  <main>
+        
+<!-- INIZIO CLASS video -->    
+<section class="hero-video">
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="Video_D_Generato_su_Richiesta.mp4" type="video/mp4">
+  </video>
+
+  <div class="overlay"></div>
+
+  <div class="hero-avengers hero-content">
+    <h1>Digital Avengers</h1>
+    <p>Cyber Security e installazioni di rete per aziende</p>
+    <a href="#contatti" class="btn bottom">Richiedi un preventivo</a>
+  </div>
+</section>
+<!-- INIZIO CLASS HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="tag">Soluzioni professionali per aziende</p>
+          <h1>Preventivi rapidi per installazioni di rete e cyber security</h1>
+          <p>
+            Realizziamo preventivi chiari e personalizzati per infrastrutture di rete,
+            cablaggio, firewall, protezione dati e sicurezza informatica.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contatti" class="btn btn-primary">Richiedi un preventivo</a>
+            <a href="#servizi" class="btn btn-secondary">Scopri i servizi</a>
+          </div>
+        </div>
+        <!-- INIZIO CLASS HERO CARD -->
+        <div class="hero-card">
+          <h3>Consulenza veloce</h3>
+          <p>Analizziamo le esigenze della tua azienda e proponiamo la soluzione più adatta.</p>
+          <ul>
+            <li>Preventivi personalizzati</li>
+            <li>Installazioni di rete LAN/Wi-Fi</li>
+            <li>Firewall e protezione endpoint</li>
+            <li>Supporto tecnico dedicato</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+<!-- INIZIO la nostra app -->
+ <div>
+     <h1 class="h1">Scarica l'app</h1>
+     <a href="C:\Users\loren\OneDrive\Desktop\digital avengers\DIGITAL_AVENGERS_APP.zip" download class="feature-button feature_button-primary" onclick="controllaDownload()">Download</a>
+    </div>
+     
+
+<!-- 1 -->
+    <section class="feature" id="accesso">
+    <div class="feature-head">
+        <div class="feature-step" >01</div>
+        <h2>ACCESSO E INTRO</h2>
+        <p class="feature-intro">
+        </p>
+      </div>
+
+      <div class="feature-media">
+        <img src="file6.jpg" alt="">
+      </div>
+
+      <div class="feature-body">
+        <div class="feature-text">
+        <p>
+        Inserisci le credenziali predefinite:  Username: admin | Password: avengers.
+        </p>
+        <p>
+        Dopo il login, partirà il video introduttivo. 
+      Una volta terminato o saltato il video, si aprirà la schermata iniziale dell'app con le diverse funzioni disponibili
+        </p>
+        </div>
+        <div class="feature-media">
+        <img src="file1.jpg" alt="">
+      </div>
+     </div>
+    </section>
+
+
+<!-- 2-->
+    <section class="feature" id="porte">
+    <div class="feature-head">
+        <div class="feature-step">02</div>
+        <h2>SCANSIONE PORTE</h2>
+        <p class="feature-intro">
+        </p>
+      </div>
+
+      
+      <div class="feature-body">
+        <div class="feature-text">
+        <p>
+        Questo modulo serve a vedere quali servizi sono attivi su un computer target 
+        (es. un altro dispositivo nella tua rete o una macchina virtuale di laboratorio).
+       Inserisci l'IP Target (es. 192.168.1.50).
+        Clicca su AVVIA OPERAZIONE.
+        La console mostrerà in tempo reale se porte come la 22 (SSH), 80 (HTTP) o 3306 (MySQL) sono aperte.
+        </p>
+        <p>
+       Clicca su AVVIA OPERAZIONE.
+        La console mostrerà in tempo reale se porte come la 22 (SSH), 80 (HTTP) o 3306 (MySQL) sono aperte.
+        </p>
+        </div>
+        <div class="feature-media">
+        <img src="file3.jpg" alt="">
+      </div>
+
+        
+      </div>
+    </section>
+<!-- 3 -->
+    <section class="feature" id="verbi">
+        
+      <div class="feature-head">
+        <div class="feature-step">03</div>
+        <h2>SCANSIONE VERBI HTTP</h2>
+      </div>
+      
+
+      <div class="feature-body">
+        <div class="feature-text">
+          <p>Utilizzalo per testare la sicurezza di un server web. Inserisci l'IP di un server web locale. Il tool invierà richieste GET, POST, PUT e DELETE. Analisi: Se vedi Esito: True su DELETE o PUT, il server potrebbe essere vulnerabile perché permette a chiunque di caricare o cancellare file.
+          </p>
+        </div>
+         <div class="feature-media">
+        <img src="file4.jpg" alt="">
+      </div>
+
+      </div>
+    </section>
+
+
+    <!-- 4 -->
+    <section class="feature" id="socket">
+      <div class="feature-head">
+        <div class="feature-step">04</div>
+        <h2>SCANSIONE SOCKET</h2>
+
+      </div>
+
+      <div class="feature-body">
+        <div class="feature-text">
+          <p>
+             Questo trasforma il tuo PC in  un ascoltatore invisibile di pacchetti.
+      Inserisci il tuo IP locale su Kali (controllalo prima con il comando hostname -I).
+      Clicca su AVVIA OPERAZIONE.
+      Il log inizierà a stampare ogni pacchetto che transita sulla tua scheda di rete, indicando la provenienza e la dimensione in byte. Per fermare: Clicca di nuovo sul tasto "Avvia" o torna al menu principale.
+          </p>
+        </div>
+        <div class="feature-media">
+        <img src="file5.jpg" alt="">
+      </div>
+      </div>
+    </section>
+
+
+</section>
+
+  <!-- INIZIO CLASS DARK SECTION -->
+    <section class="advantages section dark-section" id="vantaggi">
+      <div class="container">
+        <div class="section-title">
+          <h2>Perché scegliere noi</h2>
+          <p>Esperienza tecnica, chiarezza nei costi e attenzione alla sicurezza.</p>
+        </div>
+
+        <div class="features">
+          <div class="feature-box">
+            <h3>Analisi precisa</h3>
+            <p>Studiamo il contesto aziendale per proporre una soluzione realmente efficace.</p>
+          </div>
+          <div class="feature-box">
+            <h3>Tempi rapidi</h3>
+            <p>Prepariamo preventivi in tempi brevi, con dettagli chiari e facili da comprendere.</p>
+          </div>
+          <div class="feature-box">
+            <h3>Sicurezza al centro</h3>
+            <p>Ogni progetto integra aspetti fondamentali di protezione e affidabilità.</p>
+          </div>
+          <div class="feature-box">
+            <h3>Supporto professionale</h3>
+            <p>Ti accompagniamo dalla valutazione iniziale fino alla realizzazione finale.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+    <section class="contact section" id="contatti">
+      <div class="container contact-grid">
+        <div class="contact-text">
+          <h2>Richiedi un preventivo</h2>
+          <p>
+            Contattaci per ricevere una valutazione personalizzata sulla tua rete aziendale
+            o sulle soluzioni di cyber security più adatte alla tua realtà.
+          </p>
+          <div class="contact-info">
+            <p><strong>Email:</strong> info@netsecurepreventivi.it</p>
+            <p><strong>Telefono:</strong> +39 0123 456789</p>
+            <p><strong>Sede:</strong> Roma, Italia</p>
+          </div>
+          <div>
+        <img src="digital_avengers_blue_text.png">
+    </div>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Nome azienda" required />
+          <input type="email" placeholder="Email" required />
+          <input type="tel" placeholder="Telefono" />
+          <textarea rows="6" placeholder="Descrivi il progetto o la richiesta..." required></textarea>
+          <button type="submit" class="btn btn-primary">Invia richiesta</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  </body>
+
+   <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 NetSecure Preventivi - Tutti i diritti riservati</p>
+    </div>
+  </footer>
+  </html>
