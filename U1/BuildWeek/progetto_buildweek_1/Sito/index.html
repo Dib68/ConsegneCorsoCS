@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NetSecure Preventivi | Reti e Cyber Security</title>
+  <meta name="description" content="Preventivi professionali per installazioni di rete, infrastrutture IT e soluzioni di cyber security per aziende." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- menu -->
+  <header class="header">
+    <div class="container nav">
+      <div class="logo"><img src="digital_avengers_blue_text.png." class="img"><span>Digital Avengers</span></div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="app.html">La nostra app</a></li>
+         <li><a href="Big-Brother-30.html"onclick="controllaPassword(event)">🔒Big Brother</a></li>
+          <li><a href="#servizi">Servizi</a></li>
+          <li><a href="#vantaggi">Vantaggi</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <script>
+  // 🔐 PASSWORD PER ENTRARE NELLA PAGINA
+ function controllaPassword(event) {
+      event.preventDefault();
+
+      const passwordCorretta = "bigbrother";
+      const passwordUtente = prompt("Inserisci la password:");
+
+if (passwordUtente === passwordCorretta) {
+        window.location.href = "Big-Brother-30.html";
+      } else if (passwordUtente !== null) {
+        alert("Password errata");
+      }
+}
+
+
+
+</script>
+  <!-- FINE menu -->
+ <!-- inizio main -->
+  <main>
+  <!-- INIZIO CLASS video -->    
+<section class="hero-video">
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="Digital-avangers-video.mp4" type="video/mp4">
+  </video>
+
+  <div class="overlay"></div>
+
+  <div class="hero-avengers hero-content">
+    <h1>Digital Avengers</h1>
+    <p>Cyber Security e installazioni di rete per aziende</p>
+    <a href="#contatti" class="btn bottom">Richiedi un preventivo</a>
+  </div>
+</section>
+      <!-- INIZIO CLASS HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="tag">Soluzioni professionali per aziende</p>
+          <h1>Preventivi rapidi per installazioni di rete e cyber security</h1>
+          <p>
+            Realizziamo preventivi chiari e personalizzati per infrastrutture di rete,
+            cablaggio, firewall, protezione dati e sicurezza informatica.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contatti" class="btn btn-primary">Richiedi un preventivo</a>
+            <a href="#servizi" class="btn btn-secondary">Scopri i servizi</a>
+          </div>
+        </div>
+        <!-- INIZIO CLASS HERO CARD -->
+        <div class="hero-card">
+          <h3>Consulenza veloce</h3>
+          <p>Analizziamo le esigenze della tua azienda e proponiamo la soluzione più adatta.</p>
+          <ul>
+            <li>Preventivi personalizzati</li>
+            <li>Installazioni di rete LAN/Wi-Fi</li>
+            <li>Firewall e protezione endpoint</li>
+            <li>Supporto tecnico dedicato</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  <!-- INIZIO CLASS SERVICE SECTION -->
+    <section class="services section" id="servizi">
+      <div class="container">
+        <div class="section-title">
+          <h2>I nostri servizi</h2>
+          <p>Progettiamo e valutiamo soluzioni IT affidabili per aziende di ogni dimensione.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="icon">🌐</div>
+            <h3>Installazioni di rete</h3>
+            <p>
+              Preventivi per reti aziendali, cablaggio strutturato, switch, router,
+              access point e configurazioni personalizzate.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="icon">🔒</div>
+            <h3>Cyber Security</h3>
+            <p>
+              Soluzioni per firewall, segmentazione di rete, antivirus avanzati,
+              controllo accessi e protezione delle infrastrutture digitali.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="icon">🖥️</div>
+            <h3>Infrastrutture IT</h3>
+            <p>
+              Valutazione tecnica e preventivi per server, NAS, backup, sistemi cloud
+              e continuità operativa.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="icon">📋</div>
+            <h3>Preventivi su misura</h3>
+            <p>
+              Ogni proposta viene costruita in base alle reali esigenze del cliente,
+              con costi trasparenti e dettagliati.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  <!-- INIZIO CLASS DARK SECTION -->
+    <section class="advantages section dark-section" id="vantaggi">
+      <div class="container">
+        <div class="section-title">
+          <h2>Perché scegliere noi</h2>
+          <p>Esperienza tecnica, chiarezza nei costi e attenzione alla sicurezza.</p>
+        </div>
+
+        <div class="features">
+          <div class="feature-box">
+            <h3>Analisi precisa</h3>
+            <p>Studiamo il contesto aziendale per proporre una soluzione realmente efficace.</p>
+          </div>
+          <div class="feature-box">
+            <h3>Tempi rapidi</h3>
+            <p>Prepariamo preventivi in tempi brevi, con dettagli chiari e facili da comprendere.</p>
+          </div>
+          <div class="feature-box">
+            <h3>Sicurezza al centro</h3>
+            <p>Ogni progetto integra aspetti fondamentali di protezione e affidabilità.</p>
+          </div>
+          <div class="feature-box">
+            <h3>Supporto professionale</h3>
+            <p>Ti accompagniamo dalla valutazione iniziale fino alla realizzazione finale.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contatti">
+      <div class="container contact-grid">
+        <div class="contact-text">
+          <h2>Richiedi un preventivo</h2>
+          <p>
+            Contattaci per ricevere una valutazione personalizzata sulla tua rete aziendale
+            o sulle soluzioni di cyber security più adatte alla tua realtà.
+          </p>
+          <div class="contact-info">
+            <p><strong>Email:</strong> info@netsecurepreventivi.it</p>
+            <p><strong>Telefono:</strong> +39 0123 456789</p>
+            <p><strong>Sede:</strong> Roma, Italia</p>
+          </div>
+          <div>
+        <img src="digital_avengers_blue_text.png">
+    </div>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Nome azienda" required />
+          <input type="email" placeholder="Email" required />
+          <input type="tel" placeholder="Telefono" />
+          <textarea rows="6" placeholder="Descrivi il progetto o la richiesta..." required></textarea>
+          <button type="submit" class="btn btn-primary">Invia richiesta</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 NetSecure Preventivi - Tutti i diritti riservati</p>
+    </div>
+  </footer>
+</body>
+</html>
