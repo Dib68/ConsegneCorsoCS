@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Digital Avengers
+Comment=Advanced Network Security Tool
+Exec=sudo /home/kali/Desktop/DigitalAvengers/network_tool
+Path=/home/kali/Desktop/DigitalAvengers
+Icon=/home/kali/Desktop/DigitalAvengers/logo.png
+Terminal=true
+Type=Application
+Categories=Security;Utility;
