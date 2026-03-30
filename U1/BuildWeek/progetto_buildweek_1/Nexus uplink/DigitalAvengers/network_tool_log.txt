@@ -1,0 +1,72 @@
+[05:31:48] --- Modulo PORTE Inizializzato ---
+Pronto all'esecuzione.
+[05:32:00] 
+[*] Avvio scansione PORTE su 192.168.60.100...
+[05:32:01]   -> Porta 21: CHIUSA/FILTRATA
+[05:32:02]   -> Porta 22: CHIUSA/FILTRATA
+[05:32:03]   -> Porta 25: CHIUSA/FILTRATA
+[05:32:04]   -> Porta 53: CHIUSA/FILTRATA
+[05:32:05] 
+[*] Avvio scansione PORTE su 192.168.60.100...
+[05:32:05]   -> Porta 80: CHIUSA/FILTRATA
+[05:32:06]   -> Porta 21: CHIUSA/FILTRATA
+[05:32:06]   -> Porta 110: CHIUSA/FILTRATA
+[05:32:07]   -> Porta 22: CHIUSA/FILTRATA
+[05:32:07]   -> Porta 139: CHIUSA/FILTRATA
+[05:32:08]   -> Porta 25: CHIUSA/FILTRATA
+[05:32:08]   -> Porta 143: CHIUSA/FILTRATA
+[05:32:09]   -> Porta 53: CHIUSA/FILTRATA
+[05:32:09]   -> Porta 443: CHIUSA/FILTRATA
+[05:32:10]   -> Porta 80: CHIUSA/FILTRATA
+[05:32:10]   -> Porta 445: CHIUSA/FILTRATA
+[05:32:11]   -> Porta 3306: CHIUSA/FILTRATA
+[05:32:11]   -> Porta 110: CHIUSA/FILTRATA
+[05:32:12]   -> Porta 8080: CHIUSA/FILTRATA
+[05:32:12]   -> Porta 139: CHIUSA/FILTRATA
+[05:32:12] [*] Scansione Porte Completata.
+[05:32:13]   -> Porta 143: CHIUSA/FILTRATA
+[05:32:14]   -> Porta 443: CHIUSA/FILTRATA
+[05:32:15]   -> Porta 445: CHIUSA/FILTRATA
+[05:32:16]   -> Porta 3306: CHIUSA/FILTRATA
+[05:32:17]   -> Porta 8080: CHIUSA/FILTRATA
+[05:32:17] [*] Scansione Porte Completata.
+[05:32:23] --- Modulo HTTP Inizializzato ---
+Pronto all'esecuzione.
+[05:32:27] --- Modulo SOCKET Inizializzato ---
+Pronto all'esecuzione.
+[05:32:34] 
+[*] Avvio SNIFFER SOCKET su 192.168.50.100...
+[05:32:34] [*] In ascolto... (Premi 'Avvia Operazione' di nuovo per fermare o torna al menu)
+[05:32:48]   [>] Pacchetto da: 8.8.8.8 | Byte: 84
+[05:32:49]   [>] Pacchetto da: 8.8.8.8 | Byte: 84
+[05:32:50]   [>] Pacchetto da: 8.8.8.8 | Byte: 84
+[05:32:51]   [>] Pacchetto da: 8.8.8.8 | Byte: 84
+[05:32:52]   [>] Pacchetto da: 8.8.8.8 | Byte: 84
+[05:32:53]   [>] Pacchetto da: 8.8.8.8 | Byte: 84
+[05:32:55]   [>] Pacchetto da: 8.8.8.8 | Byte: 84
+[05:32:56]   [>] Pacchetto da: 8.8.8.8 | Byte: 84
+[05:32:57]   [>] Pacchetto da: 8.8.8.8 | Byte: 84
+[05:32:58]   [>] Pacchetto da: 8.8.8.8 | Byte: 84
+[05:32:59]   [>] Pacchetto da: 8.8.8.8 | Byte: 84
+[05:33:00]   [>] Pacchetto da: 8.8.8.8 | Byte: 84
+[05:33:01]   [>] Pacchetto da: 8.8.8.8 | Byte: 84
+[05:33:16] [*] Sniffer Terminati in modo sicuro.
+[06:27:58] --- Modulo PORTE Inizializzato ---
+Pronto all'esecuzione.
+[06:28:05] --- Modulo HTTP Inizializzato ---
+Pronto all'esecuzione.
+[06:28:06] --- Modulo SOCKET Inizializzato ---
+Pronto all'esecuzione.
+[06:29:37] --- Modulo PORTE Inizializzato ---
+Pronto all'esecuzione.
+[06:29:43] --- Modulo HTTP Inizializzato ---
+Pronto all'esecuzione.
+[06:29:46] --- Modulo SOCKET Inizializzato ---
+Pronto all'esecuzione.
+[06:58:15] --- Modulo PORTE Inizializzato ---
+Pronto all'esecuzione.
+[06:58:55] --- Modulo HTTP Inizializzato ---
+Pronto all'esecuzione.
+[06:59:04] --- Modulo SOCKET Inizializzato ---
+Pronto all'esecuzione.
+[07:30:59] --- Modulo CRYPTO Inizializzato ---
